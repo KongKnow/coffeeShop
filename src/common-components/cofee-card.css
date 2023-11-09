@@ -1,0 +1,38 @@
+.section-product {
+    padding: 70px 0 30px;
+}
+
+.section-product-inner {
+    display: flex;
+    gap: 45px;
+}
+
+.section-product-desc {
+    color: #000;
+}
+
+.section-product-country {
+    margin-top: 25px;
+}
+
+.section-product-country span {
+    font-weight: 700;
+}
+
+.section-product-text {
+    margin-top: 15px;
+}
+
+.section-product-text span {
+    font-weight: 700;
+}
+
+.section-product-price {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.section-product-price span {
+    font-size: 14px;
+}

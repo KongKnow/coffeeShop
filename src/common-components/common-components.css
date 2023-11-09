@@ -1,0 +1,204 @@
+.paragraph-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.paragraph-img {
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.paragraph-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.paragraph-img::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #000;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.paragraph-img::after {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #000;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+/* ======================================================================= */
+
+.coffee-card {
+    padding: 21px;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px; 
+    transition: all 0.15s linear;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.coffee-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 5px 7px 14px rgba(0, 0, 0, 0.25);
+}
+
+.coffee-card:nth-child(n+4) {
+    margin-top: -10px;
+}
+
+.coffee-card-img {
+    display: block;
+    width: 75%;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.coffee-card-img img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.coffee-card-title {
+    display: block;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.coffee-card-location {
+    color: #000;
+    font-weight: 400;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.coffee-card-price {
+    color: #000;
+    font-weight: 700;
+    text-align: end;
+}
+
+.section-store {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.section-store-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.section-store-nav span {
+    color: #000;
+}
+
+.section-store-search {
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-store-input {
+    font-size: 12px;
+    color:#000;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    font-family: 'Merienda', sans-serif;
+    padding: 6px;
+}
+
+.section-store-filter {
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-store-btn {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    padding: 6px 17px;
+    font-family: 'Merienda', sans-serif;
+    font-size: 12px;
+    border: 0;
+    background-color: #fff;
+    transition: all 0.12s linear;
+    cursor: pointer;
+}
+
+.section-store-btn:first-child {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.section-store-btn:last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.section-store-btn:hover {
+    background-color: #ccc;
+}
+
+.section-store-btn.active {
+    background-color: #ccc;
+}
+
+
+.section-store-btn + .section-store-btn {
+    margin-left: 5px;
+}
+
+.section-store-goods {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.section-about-beans {
+    padding: 70px 0 0;
+}
+
+.section-about-beans::after {
+    content: "";
+    display: block;
+    background-color: #000;
+    width: 240px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.section-about-beans-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.section-about-beans-desc {
+    width: 350px;
+}
+
+.section-about-beans-text {
+    margin-top: 25px;
+    color: #000;
+}
